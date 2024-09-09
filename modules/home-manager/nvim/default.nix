@@ -17,11 +17,11 @@
   home = {
     packages = with pkgs; [
       gcc
-      nodejs_22
-      composer
+      nodePackages_latest.npm
+      php84Packages.composer
       cargo
       go
-      make
+      gnumake
       python3
       powershell
     ];
