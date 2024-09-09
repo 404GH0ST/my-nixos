@@ -19,8 +19,14 @@
 
   catppuccin.pointerCursor.enable = true;
 
-  qt.enable = true;
-  qt.style.catppuccin.enable = true;
+  qt = {
+    enable = true;
+    style = {
+      name = "kvantum";
+      catppuccin.enable = true;
+    };
+    platfromTheme.name = "kvantum";
+  };
 
   gtk = {
     catppuccin = {
