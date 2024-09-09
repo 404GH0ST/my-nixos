@@ -47,7 +47,7 @@
             home-manager.extraSpecialArgs = {inherit inputs outputs username;};
             home-manager.users.${username} = {
               imports = [
-                ./hosts/canopus/home.nix
+                ./hosts/jergal/home.nix
                 catppuccin.homeManagerModules.catppuccin
               ];
             };
