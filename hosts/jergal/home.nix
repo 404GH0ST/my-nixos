@@ -25,7 +25,7 @@
       name = "kvantum";
       catppuccin.enable = true;
     };
-    platfromTheme.name = "kvantum";
+    platformTheme.name = "kvantum";
   };
 
   gtk = {
