@@ -9,7 +9,7 @@
     ../common
     ../../modules/nixos/desktop
     ../../modules/nixos/desktop/bspwm
-    ../../modules/nixos/desktop/sxhkd
+    # ../../modules/nixos/desktop/sxhkd
     # ../../modules/nixos/virtualisation
   ];
 
