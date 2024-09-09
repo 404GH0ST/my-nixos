@@ -1,0 +1,10 @@
+# .sops.yaml
+
+keys:
+  - &users 
+    - &gh0st age1cx7wpxf7fuetge82j442al60dxnaw45dc3vd4mz5zlfkya8c6grs5vw3t4
+creation_rules:
+  - path_regex: hosts/common/secrets.yaml$
+    key_groups:
+    - age:
+      - *gh0st
