@@ -1,8 +1,4 @@
 {pkgs, ...}: {
-    modules.desktop.type = "x11";
-
-    modules.services.dunst.enable = true;
-
     environment.systemPackages = with pkgs; [
       lightdm
       (polybar.override {
