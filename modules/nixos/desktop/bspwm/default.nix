@@ -12,7 +12,7 @@
         enable = true;
         package = pkgs.unstable.picom;
       };
-      redshift.enable = true;
+      # redshift.enable = true;
       displayManager.defaultSession = "none+bspwm";
       xserver = {
         enable = true;
