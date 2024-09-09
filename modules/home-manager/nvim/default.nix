@@ -17,7 +17,7 @@
   home = {
     packages = with pkgs; [
       gcc
-      npm
+      nodejs_22
       composer
       cargo
       go
